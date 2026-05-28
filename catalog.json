@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "updated": "2026-05-27",
+  "snippets": [
+    {
+      "id": "google-account-records",
+      "category": "item",
+      "title": "Google Account Records (Legal Process)",
+      "body": "All records and information associated with the Google account(s) identified by the email address [EMAIL@gmail.com] and/or the subscriber [NAME], maintained by Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, including: subscriber information; account registration and login IP addresses with timestamps; Gmail content (sent, received, draft, and deleted messages); Google Drive and Google Photos content; location history and timeline data; Google Voice records; search and browsing history; YouTube activity; and any associated devices, for the period [START DATE] through [END DATE].",
+      "tags": ["google", "email", "gmail", "cloud", "tech"]
+    },
+    {
+      "id": "apple-icloud-content",
+      "category": "item",
+      "title": "Apple iCloud Content",
+      "body": "All content and records associated with the Apple ID [EMAIL] and/or the subscriber [NAME], maintained by Apple Inc., One Apple Park Way, Cupertino, CA 95014, including: subscriber and device registration information; iCloud Mail; iCloud Drive documents; iCloud Photos and shared albums; device backups (including messages, call history, contacts, calendars, notes, and application data contained therein); Find My iPhone location data; and connection logs with timestamps, for the period [START DATE] through [END DATE].",
+      "tags": ["apple", "icloud", "iphone", "cloud", "tech"]
+    },
+    {
+      "id": "meta-facebook-records",
+      "category": "item",
+      "title": "Meta / Facebook & Instagram Records",
+      "body": "All records and content associated with the Facebook and/or Instagram account(s) identified by [USERNAME / PROFILE URL / EMAIL], maintained by Meta Platforms, Inc., 1601 Willow Road, Menlo Park, CA 94025, including: subscriber/registration information; IP logs with timestamps; private messages (Messenger and Instagram Direct); posts, photos, and videos (including deleted content where retained); friend/follower lists; group memberships; and Marketplace activity, for the period [START DATE] through [END DATE].",
+      "tags": ["meta", "facebook", "instagram", "social", "tech"]
+    },
+    {
+      "id": "cellphone-physical-search",
+      "category": "item",
+      "title": "Cellular Telephone — Physical Device Search",
+      "body": "Any and all cellular telephones, smartphones, or similar mobile communication devices found at the location or on the person(s) described herein, and all data stored therein, including: call logs; SMS/MMS and chat-application messages; contacts; photographs and videos; GPS and location data; internet browsing history; application data; and stored documents. Authorization is sought to perform a forensic extraction of the device(s) using law-enforcement forensic tools.",
+      "tags": ["cellphone", "mobile", "device", "forensics"]
+    },
+    {
+      "id": "cell-site-location-info",
+      "category": "item",
+      "title": "Cell Site Location Information (Carrier Records)",
+      "body": "Historical and prospective cell site location information, call detail records with cell site and sector data, subscriber information, and connection logs for the cellular telephone number [PHONE NUMBER], maintained by [CARRIER], for the period [START DATE] through [END DATE]. This includes per-call measurement data and any precision location information available to the carrier.",
+      "tags": ["csli", "carrier", "location", "phone"]
+    },
+    {
+      "id": "residence-search-place",
+      "category": "place",
+      "title": "Residence — Place to Be Searched",
+      "body": "The premises located at [FULL ADDRESS, CITY, CA ZIP], more particularly described as a [single-story / two-story] [single-family residence / apartment / condominium] with [COLOR] exterior, the numerals \"[NUMBER]\" affixed [LOCATION], including all rooms, attics, basements, garages, outbuildings, storage areas, and curtilage under the control of the occupant(s); and any vehicles located on the property under the control of the occupant(s).",
+      "tags": ["residence", "premises", "place", "home"]
+    },
+    {
+      "id": "vehicle-search-place",
+      "category": "place",
+      "title": "Vehicle — Place to Be Searched",
+      "body": "The vehicle described as a [YEAR] [MAKE] [MODEL], [COLOR], bearing California license plate [PLATE] and VIN [VIN], including the passenger compartment, trunk, engine compartment, all containers and compartments therein, and any electronic devices or storage media located within.",
+      "tags": ["vehicle", "car", "place", "auto"]
+    },
+    {
+      "id": "expertise-general-patrol",
+      "category": "expertise",
+      "title": "Affiant Expertise — General / Patrol",
+      "body": "Your affiant is a peace officer employed by [AGENCY] and has been so employed for [N] years. Your affiant graduated from a POST-certified basic police academy and has completed [N] hours of continuing professional training, including coursework in [SUBJECTS]. During your affiant's career, your affiant has participated in [N] investigations involving [CRIME TYPE], has authored and served [N] search warrants, and has made [N] arrests. The opinions expressed in this affidavit are based on that training and experience.",
+      "tags": ["expertise", "affiant", "patrol", "boilerplate"]
+    },
+    {
+      "id": "expertise-narcotics",
+      "category": "expertise",
+      "title": "Affiant Expertise — Narcotics",
+      "body": "In addition to the foregoing, your affiant has received specialized training in the identification, packaging, and distribution of controlled substances, including [N] hours of narcotics-specific instruction. Your affiant is familiar with the methods, practices, and paraphernalia commonly used by persons who possess and sell controlled substances, including the use of scales, packaging materials, pay/owe sheets, and the maintenance of records on cellular telephones. Based on this training and experience, your affiant knows that persons involved in narcotics trafficking frequently maintain evidence of their activity at their residences and on their electronic devices.",
+      "tags": ["expertise", "narcotics", "drugs", "boilerplate"]
+    },
+    {
+      "id": "pc-fragment-staleness",
+      "category": "probable_cause_fragment",
+      "title": "PC Fragment — Ongoing-Conduct / Staleness",
+      "body": "Based on your affiant's training and experience, the type of evidence sought in this warrant is of a kind that is typically retained for extended periods. [SUSPECT]'s conduct, as described above, reflects ongoing rather than isolated activity, as evidenced by [FACTS]. For these reasons, your affiant believes the information is not stale and that the evidence sought is likely to be present at the location(s) to be searched.",
+      "tags": ["probable-cause", "staleness", "boilerplate"]
+    }
+  ]
+}
