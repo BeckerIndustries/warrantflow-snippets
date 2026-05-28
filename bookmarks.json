@@ -41,30 +41,6 @@
       "info": "Commission on Peace Officer Standards and Training — courses and certification.",
       "category": "training",
       "tags": ["post", "training", "certification"]
-    },
-    {
-      "id": "google-maps",
-      "title": "Google Maps",
-      "url": "https://www.google.com/maps",
-      "info": "General mapping and street view.",
-      "category": "mapping",
-      "tags": ["maps", "location", "gis"]
-    },
-    {
-      "id": "sbcounty-gis",
-      "title": "San Bernardino County GIS / Parcel Maps",
-      "url": "https://www.sbcounty.gov/",
-      "info": "County GIS and parcel lookup. Some layers require the county network.",
-      "category": "mapping",
-      "tags": ["gis", "parcel", "county"]
-    },
-    {
-      "id": "agency-portal-example",
-      "title": "Agency Internal Portal (example)",
-      "url": "https://intranet.example.gov/",
-      "info": "ONLY works on the Sheriff's network. Replace this entry with your real internal portal URL in bookmarks.json.",
-      "category": "agency",
-      "tags": ["internal", "portal", "intranet"]
     }
   ]
 }
