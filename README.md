@@ -1,8 +1,37 @@
-# WarrantFlow Snippets
+# WarrantFlow Shared Content
 
-This repository hosts the public clause/template catalog that the WarrantFlow
-desktop app downloads and caches. Officers browse these clauses under
-**Warrant Templates** in the app and copy them into a warrant.
+This repository hosts the public catalogs the WarrantFlow desktop app
+downloads and caches:
+
+- **`catalog.json`** — reusable clauses for the **Language Library** (places,
+  items, affiant expertise, probable cause).
+- **`bookmarks.json`** — shared web links for the **Bookmarks** page.
+
+Officers can also add their own local bookmarks in the app; those stay on
+their device and are not part of this repo.
+
+## bookmarks.json schema
+
+```json
+{
+  "version": 1,
+  "updated": "2026-05-27",
+  "bookmarks": [
+    {
+      "id": "unique-stable-id",
+      "title": "Human-readable title",
+      "url": "https://example.gov/",
+      "info": "Optional notes, e.g. 'Only works on the Sheriff's network'.",
+      "category": "legal",      // records | legal | mapping | agency | training | other
+      "tags": ["search", "keywords"]
+    }
+  ]
+}
+```
+
+Only `http://` and `https://` URLs will open from the app.
+
+---
 
 ## The catalog
 
