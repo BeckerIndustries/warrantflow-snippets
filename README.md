@@ -24,6 +24,8 @@ modern Windows 10/11 machine).
 
 ## Quick start
 
+Tutorial Video https://youtu.be/SoRYK0B8CkI
+
 1. Put `WarrantFlow.exe` anywhere — USB stick, Desktop, Documents folder.
 2. Double-click it.
 3. Accept the disclaimer, set a master password, fill in your profile,
