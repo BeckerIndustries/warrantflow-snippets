@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/github.png" alt="Logo" width="700">
+  <img src="docs/images/github.png" alt="Logo" width="100%">
 </p>
 
 # WarrantFlow
